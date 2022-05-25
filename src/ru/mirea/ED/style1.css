@@ -1,0 +1,31 @@
+.but#1 {
+    -fx-background-color: white;
+    -fx-background-radius: 50;
+    -fx-background-color: #43e476;
+    -fx-border-radius: 50;
+    -fx-border-color: black;
+}
+
+.but#1:hover {
+    -fx-background-color: #339953;
+}
+
+.but#2 {
+    -fx-background-radius: 50;
+    -fx-background-color: #dcdcdc;
+    -fx-border-radius: 50;
+    -fx-border-color: black;
+}
+
+.but#2:hover {
+    -fx-background-color: grey;
+}
+
+.but#1:pressed {
+    -fx-border-width: 0;
+}
+
+.but#2:pressed {
+    -fx-border-width: 0;
+}
+
